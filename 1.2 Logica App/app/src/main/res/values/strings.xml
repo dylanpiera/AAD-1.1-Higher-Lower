@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Logica App</string>
+    <string name="conjunction">Conjunction (AND)</string>
+    <string name="truevalue">T</string>
+    <string name="falsevalue">F</string>
+    <string name="truevaluefull">True</string>
+    <string name="falsevaluefull">False</string>
+    <string name="submit">Submit</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect...</string>
+</resources>
