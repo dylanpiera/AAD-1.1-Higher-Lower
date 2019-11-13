@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rock, Paper, Scissors Kotlin</string>
+    <string name="game_history_title">Game history</string>
+    <string name="welcome">Welcome</string>
+    <string name="instructions">Instructions: select rock, paper or scissors to play.</string>
+    <string name="versus">V.S.</string>
+    <string name="you">You</string>
+    <string name="computer">Computer</string>
+    <string name="action_history">Show history</string>
+</resources>
