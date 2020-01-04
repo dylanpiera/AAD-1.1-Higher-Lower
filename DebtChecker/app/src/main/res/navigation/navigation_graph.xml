@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@+id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.soaringnetwork.debtchecker.ui.main.MainFragment"
+        android:label="Homepage"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_standingFragment"
+            app:destination="@id/standingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/standingFragment"
+        android:name="com.soaringnetwork.debtchecker.ui.main.StandingFragment"
+        android:label="Homepage - Standings"
+        tools:layout="@layout/standing_fragment" >
+        <action
+            android:id="@+id/action_standingFragment_to_transactionListFragment"
+            app:destination="@id/transactionListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transactionListFragment"
+        android:name="com.soaringnetwork.debtchecker.ui.main.TransactionListFragment"
+        android:label="Transaction List"
+        tools:layout="@layout/transaction_list_fragment" />
+</navigation>
